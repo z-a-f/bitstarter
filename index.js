@@ -8,8 +8,6 @@ app.use(express.static(__dirname + '/public'))
 
 var buffer = fs.readFileSync("index.html");
 
-
-
 app.get('/', function(request, response) {
     // response.send('Hello World 2!');
     response.send(buffer.toString());
