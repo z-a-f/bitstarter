@@ -13,7 +13,7 @@ app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
   // response.send('Hello World 2!')
-  response.send(buffer);
+  response.send(buffer.toString);
 })
 
 app.listen(app.get('port'), function() {
