@@ -2,8 +2,10 @@ var express = require('express')
 var app = express();
 
 var buffer = fs.readFileSync('index.html', function (err, data) {
-  if (err) throw err;
-  console.log("debug");
+  if (err){
+      throw err;
+      console.log("debug");
+  }
   console.log(data);
 });
 
