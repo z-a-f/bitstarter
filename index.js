@@ -5,10 +5,10 @@ var app = express();
 app.set('port', (process.env.PORT || 5000))
 app.use(express.static(__dirname + '/public'))
 
-var buffer = fs.readFileSync('index.html', function (err, data) {
+fs.readFileSync('index.html', function (err, data) {
     if (err) throw err
     // console.log("debug");
-    // console.log(data);
+    console.log(data);
 });
 
 
