@@ -1,7 +1,7 @@
 var express = require('express')
 var app = express();
 
-fs.readFile('index.html', function (err, data) {
+var buffer = fs.readFile('index.html', function (err, data) {
   if (err) throw err;
   console.log(data);
 });
@@ -12,7 +12,8 @@ app.use(express.static(__dirname + '/public'))
 
 
 app.get('/', function(request, response) {
-  response.send('Hello World 2!')
+  // response.send('Hello World 2!')
+  response.send(buffer);
 })
 
 app.listen(app.get('port'), function() {
