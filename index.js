@@ -13,8 +13,8 @@ var content = fs.readFileSync("index.html")/*, function (err, data) {
 */
 
 app.get('/', function(request, response) {
-    response.send('Hello World 2!');
-    // response.send(buffer.toString);
+    // response.send('Hello World 2!');
+    response.send(content.toString);
 })
 
 app.listen(app.get('port'), function() {
