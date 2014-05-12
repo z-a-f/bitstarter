@@ -7,7 +7,7 @@
 		<!-- Need that for dynamic pages -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<!-- CSS -->
+		<!-- TAG: CSS -->
 		<link type="text/css" 
 			rel="stylesheet" 
 			href="/css/bootstrap-combined.no-icons.min.css"
@@ -33,12 +33,13 @@
 			href="/css/styles.css"
 		>	
 		
-    	<!-- Scripts -->
+    	<!-- TAG: Scripts -->
     	<script src="/js/startupCode_jquery.js"></script>
     	<script src="/js/startupCode_bootstrap.js"></script>
 	</head>
-  
+
 	<body>
+		<!-- TAG: Navigation -->
 		<!-- Mobile-friendly navbar adapted from example. 
 			http://twitter.github.io/bootstrap/examples/starter-template.html
 			https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries 
@@ -73,11 +74,13 @@
 				http://www.google.com/fonts/specimen/Ubuntu
 				http://www.google.com/fonts/specimen/Ubuntu#pairings
 			-->
+			<!-- TAG: Main header -->
 			<div class="row-fluid heading">
 				<div class="span12">
 					<h1>Product</h1>
 				</div>
 			</div>
+			<!-- TAG: One sentence description -->
 			<div class="row-fluid subheading">
 				<div class="span12">
 					<!-- Special typography from Bootstrap for lead paragraphs
@@ -86,12 +89,34 @@
 					<p class="lead">This is a one sentence description.</p>
 				</div>
 			</div>
+
+			<!-- TAG: Main content -->
 			<div class="row-fluid pitch">
+				<!-- TAG: Video -->
 				<div class="span5 offset1 video">
 					<img class="img-polaroid" src="http://placehold.it/480x300">
 				</div>
+				<!-- Misc. Controls -->
+				<div class="span5 actions">
+					<!-- This is 'actions' div for buttons, stats, etc.-->
+					<div class="span8 offset2">
+						<div class="statistics">
+							<div class="span4">
+								<!-- note that in the CSS the linediv-l and linediv-r give
+									lines that are different in horizontal and vertical
+									layouts - media queries rule! 
+								-->
+								<div class="linediv-l">
+									<h3>1000</h3>
+									<p>backers</p>
+								</div>
+							</div
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
+		
 	</body>
 </html>
 
