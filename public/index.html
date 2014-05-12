@@ -97,8 +97,12 @@
 					<img class="img-polaroid" src="http://placehold.it/480x300">
 				</div>
 				<!-- Misc. Controls -->
+				<!-- This is 'actions' div for buttons, stats, etc.-->
 				<div class="span5 actions">
-					<!-- This is 'actions' div for buttons, stats, etc.-->
+					<!-- TAG: Stats Text -->
+					<!-- http://twitter.github.io/bootstrap/scaffolding.html#gridSystem
+						https://developer.mozilla.org/en-US/docs/Web/CSS/border
+					-->
 					<div class="span8 offset2">
 						<div class="statistics">
 							<!-- note that in the CSS the linediv-l and linediv-r give
@@ -125,6 +129,17 @@
 							</div
 						</div>
 					</div>
+					<!-- TAG: Stats bar -->				
+					<div class="span10 offset1">
+						<!-- The thermometer is straightforward. We just use the Bootstrap progress bar:
+							http://twitter.github.io/bootstrap/components.html#progress
+						-->	
+						<div class="thermometer progress active">
+							<div class="bar bar-success" style="width:60%;"><div>
+							<div class="bar bar-warning" style="width:40%;"><div>
+						</div>
+					</div>
+					
 				</div>
 			</div>
 		</div>
