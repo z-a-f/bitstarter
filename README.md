@@ -1,11 +1,13 @@
-node-js and HTML template
+NODE and HTML template
 =========================
 
-# node-js Starter
+---
+
+## 1. node-js Starter
 
 A barebones Node.js app using [Express 4](http://expressjs.com/).
 
-## Running Locally
+### 1. Running Locally
 
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
 
