@@ -1,4 +1,4 @@
-# node-js-sample
+# node-js Starter
 
 A barebones Node.js app using [Express 4](http://expressjs.com/).
 
@@ -7,8 +7,8 @@ A barebones Node.js app using [Express 4](http://expressjs.com/).
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
 
 ```sh
-git clone git@github.com:heroku/node-js-sample.git # or clone your own fork
-cd node-js-sample
+git clone git@github.com:zafartahirov/bitstarter.git # or clone your own fork
+cd bitstarter
 npm install
 npm start
 ```
