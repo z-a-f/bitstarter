@@ -1,3 +1,6 @@
+node-js and HTML template
+=========================
+
 # node-js Starter
 
 A barebones Node.js app using [Express 4](http://expressjs.com/).
