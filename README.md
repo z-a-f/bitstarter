@@ -1,5 +1,7 @@
 # NODE and HTML template
->
+
+> This is just a template. Feel free to modify, but don't forget - it's a TEMPLATE!
+<hr>
 
 ## node-js Starter
 
@@ -42,4 +44,10 @@ For more information about using Node.js on Heroku, see these Dev Center article
 
 This template was adapted from Lectures 4-7 of the [StartUp Engineering Course](https://class.coursera.org/startup-001).
 
-### 
+### Modifying the HTML template
+
+Keep the comments in there!
+
+### Documentation
+
+For more information open the `index.html` file and read the inline comments
