@@ -1,5 +1,4 @@
 NODE and HTML template
-=========================
 
 ---
 
@@ -20,7 +19,7 @@ npm start
 
 Your app should now be running on [localhost:8080](http://localhost:8080/).
 
-## Deploying to Heroku
+### 1. Deploying to Heroku
 
 ```
 heroku create
