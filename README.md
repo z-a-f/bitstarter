@@ -1,12 +1,12 @@
-NODE and HTML template
+# NODE and HTML template
 
 ---
 
-## 1. node-js Starter
+## node-js Starter
 
 A barebones Node.js app using [Express 4](http://expressjs.com/).
 
-### 1. Running Locally
+### Running Locally
 
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
 
@@ -19,7 +19,7 @@ npm start
 
 Your app should now be running on [localhost:8080](http://localhost:8080/).
 
-### 1. Deploying to Heroku
+### Deploying to Heroku
 
 ```
 heroku create
@@ -27,7 +27,7 @@ git push heroku master
 heroku open
 ```
 
-## Documentation
+### Documentation
 
 For more information about using Node.js on Heroku, see these Dev Center articles:
 
@@ -36,3 +36,5 @@ For more information about using Node.js on Heroku, see these Dev Center article
 - [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
 - [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
 - [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
+
+---
