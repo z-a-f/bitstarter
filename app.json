@@ -1,4 +1,6 @@
 {
-  "name": "Node.js Sample",
+  "name": "Node.js and Bitstarter Samples",
   "description": "A barebones Node.js app using Express 4",
+  "repository": "https://github.com/heroku/node-js-sample",
+  "keywords": ["node", "express", "static", "bitstarter"]
 }
