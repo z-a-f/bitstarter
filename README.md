@@ -1,7 +1,7 @@
 # NODE and HTML template
 
 > This is just a template. Feel free to modify, but don't forget - it's a TEMPLATE!
-> Sample Running on [Heroku](http://radiant-taiga-1636.herokuapp.com/) if you want to check it out
+> Sample Running on [Heroku](http://radiant-taiga-1636.herokuapp.com/) if you want to check it out. It's also running here: [www.RafazZ.com](http://www.rafazz.com), but I might take it down when I have time.
 <hr>
 
 ## node-js Starter
